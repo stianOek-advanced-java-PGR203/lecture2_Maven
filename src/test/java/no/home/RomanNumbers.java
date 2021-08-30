@@ -7,7 +7,7 @@ public class RomanNumbers {
 
     @Test
     void shouldConvert1ToI() {
-        assertEquals("I", new toRoman().convert());
+        assertEquals("I", new toRoman().convert(1));
     }
 }
 
