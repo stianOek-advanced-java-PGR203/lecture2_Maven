@@ -11,6 +11,11 @@ public class RomanNumbers {
     void shouldConvert1ToI() {
         assertEquals("I", new toRoman().convert(1));
     }
+
+    @Test
+    void shouldConvert2ToII() {
+        assertEquals("II", new toRoman().convert(2));
+    }
 }
 
 
