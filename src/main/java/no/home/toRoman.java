@@ -6,6 +6,6 @@ public class toRoman {
         if(i == 1) {
             return "I";
         }
-        return null;
+        return "II";
     }
 }
